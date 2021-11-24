@@ -4,11 +4,11 @@
              x:Class="AppDev2.Views.AboutPage"
              xmlns:vm="clr-namespace:AppDev2.ViewModels"
              Title="{Binding Title}">
-    
+
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Accent">#96d1ff</Color>
